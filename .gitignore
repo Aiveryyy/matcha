@@ -24,3 +24,31 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Local env files
+.env
+.env.local
+.env.*.local
+
+# Windows / WSL junk
+*:Zone.Identifier
+
+# Local AI/tool folders
+.agents/
+.codex/
+.workspace/
+
+# Editor folders
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
